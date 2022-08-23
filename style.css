@@ -175,7 +175,7 @@ footer{
 }
 #footer-heading-tag-color{
 	padding-top: 80px;
-	padding-bottom: 15px;
+	margin: 10px;
 	font-family: 'Lobster', cursive;
 	font-size: 33px;
 	font-weight: 200;
