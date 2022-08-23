@@ -1,4 +1,5 @@
-﻿body{
+﻿/* Start */
+body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Poppins', sans-serif;
@@ -13,6 +14,7 @@ h1{
 	padding: 15px 40px;
 	border-radius: 10px;
 }
+/* Top Banner section Style */
 .top-banner{
 	width: 100%;
 	height: 100vh;
@@ -35,9 +37,10 @@ h1{
 	padding: 80px;
 	text-align: center;
 }
+/* Donation Section Style */
 .donate-section{
 	height: 100vh;
-	padding: 7% 15% 0 15%;
+	padding: 4% 15% 0 15%;
 	text-align: center;
 }
 .donate-section h1{
@@ -71,6 +74,7 @@ h1{
 	margin: 40px 0;
 	font-size: 16px;
 }
+/* Donation Plan Section Style */
 .donate-plan{
 	padding: 2% 10%;
 	text-align: center;
@@ -93,47 +97,27 @@ h1{
 	border-radius: 5px;
 }
 .donate-plan-item p{
-	line-height: 25px;
+	line-height: 20px;
 }
-.updates{
-	padding: 2% 20% 15% 20%;
-	text-align: center;
+#food-plan{
+	background-color: rgb(232, 246, 252);
+	padding: 40px 20px;
 }
-.updates h1{
-	padding: 30px;
+#family-plan{
+	background-color: rgb(248, 219, 207);
+	padding: 40px 20px;
 }
-.updates p{
-	color: gray;
-	padding-bottom: 20px;
+#education-plan{
+	background-color: rgb(245, 238, 198);
+	padding: 40px 20px;
 }
-.input-area-background{
-	margin-top: 30px;
-	background-color: rgb(248, 239, 219);
-	padding: 80px 60px;
-	border-radius: 5px;
-}
-.input-area{
-	border: none;
-	padding: 12px 40px;
-	margin: 0;
-}
-#email{
-	background-color: rgb(212, 210, 210);
-	font-weight: 500;
-}
-#submit{
-	margin-left: -4px;
-	background-color: tomato;
-	font-weight: 500;
-	color: white;
-	cursor: pointer;
-}
+/* Comments Section Style */
 .comments{
-	padding: 12% 20%;
+	padding: 5% 20%;
 	text-align: center;
 }
 .comments h1{
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 }
 .comment-items{
 	width: 100%;
@@ -150,23 +134,50 @@ h1{
 	padding: 20px;
 }
 .comment h3{
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 .comment p{
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
-#food-plan{
-	background-color: rgb(232, 246, 252);
-	padding: 60px 20px;
+/* Updates Section Style */
+.updates{
+	padding: 2% 20% 10% 20%;
+	text-align: center;
 }
-#family-plan{
-	background-color: rgb(248, 219, 207);
-	padding: 60px 20px;
+.updates h1{
+	padding: 10px;
 }
-#education-plan{
-	background-color: rgb(245, 238, 198);
-	padding: 60px 20px;
+.updates p{
+	color: gray;
+	padding-bottom: 10px;
 }
+.input-area-background{
+	margin-top: 30px;
+	background-color: rgb(248, 239, 219);
+	padding: 80px 60px;
+	border-radius: 5px;
+}
+.input-area{
+	border: none;
+	padding: 12px 40px;
+	margin: 0;
+}
+#email{
+	background-color: rgb(212, 210, 210);
+	font-weight: 500;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+#submit{
+	margin-left: -4px;
+	background-color: tomato;
+	font-weight: 500;
+	color: white;
+	cursor: pointer;
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+/* Footer Section Style */
 footer{
 	height: 200px;
 	background-color: #060b14;
@@ -184,3 +195,4 @@ footer{
 footer small{
 	font-size: 12px;
 }
+/* End */
