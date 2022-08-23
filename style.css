@@ -95,7 +95,7 @@ h1{
 	line-height: 25px;
 }
 .updates{
-	padding: 2% 20%;
+	padding: 2% 20% 15% 20%;
 	text-align: center;
 }
 .updates h1{
@@ -125,9 +125,10 @@ h1{
 	background-color: tomato;
 	font-weight: 500;
 	color: white;
+	cursor: pointer;
 }
 .comments{
-	padding: 5% 20%;
+	padding: 12% 20%;
 	text-align: center;
 }
 .comments h1{
@@ -166,13 +167,13 @@ h1{
 	padding: 60px 20px;
 }
 footer{
-	height: 150px;
+	height: 200px;
 	background-color: #060b14;
 	color: white;
 	text-align: center;
 }
 #footer-heading-tag-color{
-	padding-top: 40px;
+	padding-top: 80px;
 	padding-bottom: 15px;
 	font-family: 'Lobster', cursive;
 	font-size: 33px;
